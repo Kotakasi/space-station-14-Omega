@@ -3,6 +3,9 @@
   name: job-name-mime
   description: job-description-mime
   playTimeTracker: JobMime
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 5400
   startingGear: MimeGear
   icon: "Mime"
   supervisors: job-supervisors-hop

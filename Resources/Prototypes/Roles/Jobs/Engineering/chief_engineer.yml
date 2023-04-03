@@ -6,12 +6,12 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
-      time: 36000 # Corvax-RoleTime
+      time: 25200
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 54000 # Corvax-RoleTime
-#    - !type:OverallPlaytimeRequirement
-#      time: 108000
+      time: 25200
+    - !type:OverallPlaytimeRequirement
+      time: 36000
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "ChiefEngineer"

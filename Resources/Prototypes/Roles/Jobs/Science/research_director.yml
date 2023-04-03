@@ -6,15 +6,14 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 54000 # Corvax-RoleTime
-#    - !type:OverallPlaytimeRequirement
-#      time: 108000
+      time: 14400
+    - !type:OverallPlaytimeRequirement
+      time: 36000
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "ResearchDirector"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
   access:
   - Research
   - Command
